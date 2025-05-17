@@ -1,7 +1,0 @@
-services:
-  - type: cron
-    name: usd-jpy-fetcher
-    schedule: "*/5 * * * *"  # 毎5分
-    runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
